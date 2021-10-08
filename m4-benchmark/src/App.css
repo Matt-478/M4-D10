@@ -36,3 +36,119 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* SIDEBAR  SIDEBAR  SIDEBAR  SIDEBAR SIDEBAR SIDEBAR SIDEBAR SIDEBAR SIDEBAR SIDEBAR*/
+/* SIDEBAR  SIDEBAR  SIDEBAR  SIDEBAR SIDEBAR SIDEBAR SIDEBAR SIDEBAR SIDEBAR SIDEBAR*/
+/* SIDEBAR  SIDEBAR  SIDEBAR  SIDEBAR SIDEBAR SIDEBAR SIDEBAR SIDEBAR SIDEBAR SIDEBAR*/
+/* SIDEBAR  SIDEBAR  SIDEBAR  SIDEBAR SIDEBAR SIDEBAR SIDEBAR SIDEBAR SIDEBAR SIDEBAR*/
+/* SIDEBAR  SIDEBAR  SIDEBAR  SIDEBAR SIDEBAR SIDEBAR SIDEBAR SIDEBAR SIDEBAR SIDEBAR*/
+
+body main div.page-content div#albumStyle {
+  background-color: #191919;
+}
+
+body#sidemenu .side {
+  background-color: #070d14;
+  height: 100vh;
+  width: 200px;
+  position: fixed;
+}
+
+body#sidemenu .logo {
+  height: 40px;
+}
+
+body#sidemenu .menu {
+  color: white;
+}
+body#sidemenu .menu ul {
+  list-style: none;
+}
+
+body#sidemenu .menu li {
+  padding-left: 18px;
+}
+body#sidemenu .menu li a {
+  text-decoration: none;
+  color: white;
+}
+
+body#sidemenu .menu li.active {
+  border-left: 4px solid #41d76d;
+  padding-left: 14px;
+}
+
+body#sidemenu .buttons .sign-up {
+  height: 30px;
+  border-radius: 15px;
+  width: 150px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 0.8rem;
+  outline: none;
+}
+body#sidemenu .buttons .sign-up:hover {
+  color: #41d76d;
+  outline: none;
+}
+body#sidemenu .buttons .login {
+  height: 30px;
+  border-radius: 15px;
+  width: 150px;
+  background-color: #070d14;
+  color: rgb(192, 192, 192);
+  font-weight: bold;
+  font-size: 0.8rem;
+  border: 2px solid rgb(192, 192, 192);
+}
+body#sidemenu .buttons .login:hover {
+  color: #41d76d;
+  outline: none;
+}
+body#sidemenu .buttons p {
+  color: rgb(192, 192, 192);
+  margin-top: 30px;
+  font-size: 0.8rem;
+}
+
+body#sidemenu .buttons .install {
+  margin-right: 15px;
+  text-decoration: none;
+  color: rgb(192, 192, 192);
+  margin-bottom: 50px;
+  font-family: "spotify-medium";
+  letter-spacing: 00.01rem;
+}
+body#sidemenu .buttons .install:hover {
+  color: white;
+}
+
+body#sidemenu .buttons .cookie {
+  margin-right: 15px;
+  text-decoration: none;
+  color: rgb(192, 192, 192);
+}
+body#sidemenu .buttons .privacy {
+  margin-left: 15px;
+  text-decoration: none;
+  color: rgb(192, 192, 192);
+}
+body#sidemenu .side-mobile .top-bar {
+  background-color: #070d14;
+  height: 50px;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+}
+
+body#sidemenu .side-mobile .menu-body {
+  background-color: #070d14;
+  height: 100vh;
+}
+body#sidemenu .side-mobile {
+  display: none;
+}
